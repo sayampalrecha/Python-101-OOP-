@@ -1,4 +1,6 @@
-print("sayam")
-print('anotherr')
-print("demo 01 ")
-print("sa")
+# Importing the library requests and beautiful soup
+import requests
+import bs4
+
+result = requests.get("http://www.example.com")
+print(result.text)
